@@ -46,7 +46,7 @@ while True:
 
 
  else:
-    print('invalid text')
+    print('Invalid text')
     
     
 

@@ -11,37 +11,37 @@ while True:
 # user win 
 
  if user_input == computer_choice:
-    print(f"|you chose {user_input}| and |computer chose {computer_choice}|")
+    print(f"|You chose {user_input}| and |computer chose {computer_choice}|")
     print('GAME TIE')
 
  elif user_input == 'rock' and computer_choice == 'scissors':
-    print(f"|you chose {user_input}| and |computer chose {computer_choice}|")
+    print(f"|You chose {user_input}| and |computer chose {computer_choice}|")
     print("YOU WIN🎉")
 
  elif user_input == "paper" and computer_choice == 'rock':
-    print(f"|you chose {user_input}| and |computer chose {computer_choice}|")
+    print(f"|You chose {user_input}| and |computer chose {computer_choice}|")
     print("YOU WIN🎉")
 
 
  elif user_input == 'scissors' and computer_choice == 'paper':
-    print(f"|you chose {user_input}| and |computer chose {computer_choice}|")
+    print(f"|You chose {user_input}| and |computer chose {computer_choice}|")
     print("YOU WIN🎉")
 
 
 # computer win 
 
  elif computer_choice == 'rock' and user_input == 'scissors':
-    print(f"|you chose {user_input}| and |computer chose {computer_choice}|")
+    print(f"|You chose {user_input}| and |computer chose {computer_choice}|")
     print("Computer win!")
 
 
  elif computer_choice == 'paper' and user_input == 'rock':
-    print(f"|you chose {user_input}| and |computer chose {computer_choice}|")
+    print(f"|You chose {user_input}| and |computer chose {computer_choice}|")
     print("Computer win!")
 
 
  elif computer_choice == 'scissors' and user_input == 'paper':
-    print(f"|you chose {user_input}| and |computer chose {computer_choice}|")
+    print(f"|You chose {user_input}| and |computer chose {computer_choice}|")
     print("Computer win!")
 
 
